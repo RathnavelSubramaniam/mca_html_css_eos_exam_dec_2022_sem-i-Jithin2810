@@ -1,0 +1,92 @@
+header{
+    height: 100px;
+    background:linear-gradient(rgb(20, 135, 118),black);
+    margin-top: -25px;
+    margin-right: -20px;
+    margin-left: -20px;
+}
+header img{
+    float: left;
+
+}
+header h1{
+    margin-left: 600px;
+    padding-top: 30px;
+    color:red;
+    font-size: 50px;
+    font-style: italic;
+    font-family:fantasy;
+   
+}
+
+
+nav{
+    background:linear-gradient(rgb(20, 135, 118),black);
+    padding: 10px;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+nav ul li a{
+    color: red;
+    text-decoration: none;
+    padding: 80px;
+   
+}
+nav  ul li a:hover{
+    color: blue;
+   
+
+}
+nav ul li{
+    display: inline;
+    padding: 10px;
+    border-right:2px solid cornflowerblue;
+}
+aside{
+    float: left;
+}
+aside ul li{
+    list-style:disc;
+}
+aside ul li img{
+    height: 7%;
+    width: 7%;
+}
+aside ul li a{
+    text-decoration: none;
+}
+article {
+    column-count: 2;
+    column-gap: 20px;
+}
+main{
+    margin-right: 50px;
+}
+article img{
+    float: left;
+    width: 60%;
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+a:hover{
+    color: blue;
+    text-shadow: 20px ;
+}
+footer{
+            
+    background-color: black;
+    color: red;
+    padding: 5px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: 70px;
+    
+}
+footer p{
+   margin-left: 700px;
+    font-size: 20px;
+}
